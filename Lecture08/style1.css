@@ -17,3 +17,12 @@ p{
 .hello{
     font-size: 60px;
 }
+/* id selector */
+#id1{
+    color: whitesmoke;
+    background-color: black;
+}
+/* selector list */
+.class1 , .class7 , .class10{
+    color: pink;
+}
