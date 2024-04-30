@@ -10,3 +10,10 @@ h1{
 p{
     color: blue;
 }
+/* class selector */
+.para{
+    color: rgb(149, 255, 0);
+}
+.hello{
+    font-size: 60px;
+}
