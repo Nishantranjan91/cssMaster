@@ -7,3 +7,6 @@ main p {
 h1>p {
   color: blue;
 }
+section+p{
+  color: red;
+}
