@@ -10,3 +10,7 @@ h1>p {
 section ~p {
   color: red;
 }
+
+[target ="_blank"]{
+  color: pink;
+}
