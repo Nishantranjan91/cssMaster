@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>display</title>
     <style>
-        p{
+        p.inline{
             display: inline;
         }
         span{
             display: block;
+        }
+        .in-blck{
+            display: inline-block;
+            width: 1600px;
+            height: 100px;
+            color: red;
         }
     </style>
 </head>
 <body>
     <!-- display property -->
     <!-- p default behaviour is block -->
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, molestias.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eum.</p>
+    <p class ="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, molestias.</p>
+    <p class="inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eum.</p>
 <hr/>
     <!-- span=inline -->
      <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span> 
      <span>Lorem ipsum, dolor sit amet consectetur adipisicing.</span>
-
+     <p class="in-blck">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, vel.</p>
+     <p class="in-blck">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, vel.</p>
 </body>
 </html>
