@@ -4,6 +4,7 @@ div{
     background-color: red;
     animation-name: colorchange;
     animation-duration: 4s;
+    animation-delay: 3s;
 }
 @keyframes colorchange{
     from{background-color: red;}
