@@ -4,8 +4,9 @@ div{
     background-color: red;
     position: relative;
     animation-name: colorchange;
-    animation-duration: 4s;
-    animation-delay: 3s;
+    animation-duration: 3ms;
+    animation-delay: 100s;
+    animation-iteration-count: infinite;
 }
 @keyframes colorchange{
     0%{
