@@ -4,10 +4,22 @@ div{
     background-color: red;
     position: relative;
     animation-name: colorchange;
-    animation-duration: 3ms;
-    animation-delay: 3ms;
+    animation-duration: 5s;
+    animation-delay: 3s;
     animation-iteration-count: infinite;
    animation-direction: alternate-reverse;
+}
+#ease {
+    animation-timing-function: ease;
+}
+#linear {
+    animation-timing-function: linear;
+}
+#ease-in {
+    animation-timing-function: ease-in;
+}
+#ease-out {
+    animation-timing-function: ease-out;
 }
 @keyframes colorchange{
     0%{
