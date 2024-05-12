@@ -44,6 +44,9 @@ nav{
     border-radius: 10px 50px;
     cursor: pointer;
 }
+.btn button:hover{
+    background-color: red;
+}
 .hero{
     display: flex;
     justify-content: space-around;
@@ -85,3 +88,10 @@ button:hover{
     background-color: skyblue;
 }
 
+.fot{
+    padding: 40px;
+    background-color: #8080806c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
