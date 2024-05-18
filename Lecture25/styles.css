@@ -1,3 +1,18 @@
 body{
     background-color: red;
 }
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after{
+    content: 'welcome to the demo';
+}
+
+
+@media(min-width:900px){
+    /* if viewport is atleast 900px then this style will apply*/
+    body{
+        background-color: aquamarine;
+    }
+}
