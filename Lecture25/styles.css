@@ -15,4 +15,7 @@ div::after{
     body{
         background-color: aquamarine;
     }
+    div::after{
+        content:'wah its working'
+    }
 }
