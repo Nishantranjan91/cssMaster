@@ -7,6 +7,15 @@
         content: 'this is mobile compatible';
     }
 }
+@media(min-width: 600px){
+    /*portrait tablets and big phones*/
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: 'portrate tablets and big phones';
+    }
+}
 div{
     text-align: center;
     font-size: x-large;
