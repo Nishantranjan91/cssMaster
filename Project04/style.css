@@ -57,7 +57,20 @@ body, html{
 
 }
 #line-right{
-    /* background-color: #7c1818; */
-    height: 70vh;
-    width: 35%;
+    position: relative;
+}
+#line-right img{
+    height: 80vh;
+    padding: 2vw ;
+}
+#line-right .gola3{
+    height: 20vh;
+    width: 20vh;
+    background-color: black;
+    border-radius: 50%;
+}
+.gola3 h1{
+    top: 0;
+    text-align: center;
+    color: white;
 }
